@@ -1,0 +1,80 @@
+@keyframes morph{
+    0%,
+    100%{
+        border-radius: 40% 60% 70% 30% / 40% 40% 60% 50%;
+        -webkit-border-radius: 40% 60% 70% 30% / 40% 40% 60% 50%;
+        -moz-border-radius: 40% 60% 70% 30% / 40% 40% 60% 50%;
+        -ms-border-radius: 40% 60% 70% 30% / 40% 40% 60% 50%;
+        -o-border-radius: 40% 60% 70% 30% / 40% 40% 60% 50%;
+}
+30%{
+    border-radius: 70% 30% 50% 50% / 30% 30% 70% 70%;
+    -webkit-border-radius: 70% 30% 50% 50% / 30% 30% 70% 70%;
+    -moz-border-radius: 70% 30% 50% 50% / 30% 30% 70% 70%;
+    -ms-border-radius: 70% 30% 50% 50% / 30% 30% 70% 70%;
+    -o-border-radius: 70% 30% 50% 50% / 30% 30% 70% 70%;
+}
+60%{
+    border-radius: 100% 60% 60% 100% / 100% 100% 60% 60%;
+    -webkit-border-radius: 100% 60% 60% 100% / 100% 100% 60% 60%;
+    -moz-border-radius: 100% 60% 60% 100% / 100% 100% 60% 60%;
+    -ms-border-radius: 100% 60% 60% 100% / 100% 100% 60% 60%;
+    -o-border-radius: 100% 60% 60% 100% / 100% 100% 60% 60%;
+}
+80%
+{
+    border-radius: 69% 31% 66% 34% / 21% 30% 70% 79%;
+    -webkit-border-radius: 69% 31% 66% 34% / 21% 30% 70% 79%;
+    -moz-border-radius: 69% 31% 66% 34% / 21% 30% 70% 79%;
+    -ms-border-radius: 69% 31% 66% 34% / 21% 30% 70% 79%;
+    -o-border-radius: 69% 31% 66% 34% / 21% 30% 70% 79%;
+}
+}
+
+@keyframes html{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 90%;
+    }
+}
+
+@keyframes figma{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 60%;
+    }
+}
+
+@keyframes javascript{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 65%;
+    }
+}
+
+@keyframes css{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 90%;
+    }
+}
+
+
+@keyframes glow{
+    0%{
+        background: var(--bg-color);
+        box-shadow: none;
+    }
+    100%{
+        background: var(--hover-color);
+        box-shadow: var(--neon-box-shadow);
+    }
+}
